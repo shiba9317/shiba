@@ -1,7 +1,8 @@
 # 2021年度ロボットシステム学：課題1「myled.c」
 
 ## 概要
-・課題1「myled.c」とは、2021年後のロボットシステム学課題1の、Raspberry Pi 3・LED・ブレットボード・配線・抵抗等を使用し、echo 1 > /dev/myled0でON/OFを切り替え、LEDを光らせるという物である。
+・課題1「myled.c」とは、2021年後のロボットシステム学課題1の、Raspberry Pi 3・LED・ブレットボード・配線・抵抗等を使用し、
+echo 1 > /dev/myled0でON/OFを切り替え、LEDを光らせるという物である。
 
 ## 目的
 ・Ubuntu18.04をOSとして利用し、Raspberry Pi 3 等でLEDを光らせる事を目的とする。
@@ -20,10 +21,6 @@
 
 ・抵抗　×1
 
-![IMG20220106125503 884](https://user-images.githubusercontent.com/92848929/148341654-c723e299-4758-4925-979d-41553e379d16.jpg)
-
-![Screenshot_2022-01-06-12-53-21-59 883](https://user-images.githubusercontent.com/92848929/148341728-e95884b4-b6ec-4767-8a68-07ce03001c86.png)
-
 ## 全体図
 ![Screenshot_2022-01-06-12-52-50-88 882](https://user-images.githubusercontent.com/92848929/148341496-f8ad5920-cb3d-4f7b-88de-b9204515a768.png)
 
@@ -35,9 +32,13 @@
 
 2．Raspberry Pi 3 に電源を入れ、Ubuntu18.04に接続する
 
-3．ブレットボードにLEDと配線と抵抗を設置する
+3．ブレットボードにLEDと配線と抵抗を、下の写真のように設置する
 
-4．ブレットボードの配線をRaspberry Pi 3のGPIO25とGroundに接続する
+![IMG20220106125503 884](https://user-images.githubusercontent.com/92848929/148341654-c723e299-4758-4925-979d-41553e379d16.jpg)
+
+4．ブレットボードの配線をRaspberry Pi 3のGPIO25とGroundに、下の写真のように接続する
+
+![Screenshot_2022-01-06-12-53-21-59 883](https://user-images.githubusercontent.com/92848929/148341728-e95884b4-b6ec-4767-8a68-07ce03001c86.png)
 
 5．vi myled.cと打ち込み、ファイルを作る
 
@@ -57,4 +58,5 @@
 
 ## 動作
 youtubeにて、その動作を確認できる動画を公開する
+
 URL→https://youtube.com/shorts/TBEo0DftCY4?feature=share
