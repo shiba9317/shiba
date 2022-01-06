@@ -1,5 +1,5 @@
 # shiba
-This is a my repository.
+## This is a my repository.
 
 2021年度ロボットシステム学：課題1「myled.c」
 
