@@ -5,7 +5,6 @@ This is a my repository.
 
 目的：Ubuntu18.04にRaspberry Pi 3 を使用し、LEDを光らせる事を目的とする。
 
-
 動作環境：
 Ubuntu18.04（OS）
 Raspberry Pi 3×1
